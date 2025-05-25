@@ -1,0 +1,103 @@
+# Core ML and Scientific Computing
+torch==2.1.2
+torchvision==0.16.2
+torchaudio==2.1.2
+jax==0.4.23
+jaxlib==0.4.23
+flax==0.8.0
+optax==0.1.7
+numpy==1.26.2
+scipy==1.11.4
+pandas==2.1.4
+scikit-learn==1.3.2
+
+# Biomolecule Processing and Visualization
+biopython==1.82
+biotite==0.39.0
+rdkit==2023.9.3
+pymol-open-source==2.5.0
+py3dmol==2.0.4
+mdtraj==1.9.9
+prody==2.4.1
+nglview==3.0.8
+
+# Deep Learning for Protein Structure
+alphafold-colabfold==1.5.5
+fair-esm==2.0.0
+transformers==4.36.2
+datasets==2.15.0
+accelerate==0.25.0
+
+# API and Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.2
+pydantic-settings==2.1.0
+sqlalchemy==2.0.23
+alembic==1.13.1
+redis==5.0.1
+celery==5.3.4
+
+# OpenAI and AI Agents
+openai==1.6.1
+langchain==0.0.350
+langchain-openai==0.0.2
+langchain-community==0.0.10
+autogen-agentchat==0.2.0
+
+# Cloud and Storage
+boto3==1.34.0
+azure-storage-blob==12.19.0
+google-cloud-storage==2.10.0
+minio==7.2.0
+
+# Data Processing and I/O
+h5py==3.10.0
+zarr==2.16.1
+dask==2023.12.0
+pyarrow==14.0.2
+polars==0.20.2
+
+# Monitoring and Logging
+loguru==0.7.2
+rich==13.7.0
+mlflow==2.8.1
+wandb==0.16.1
+prometheus-client==0.19.0
+
+# Testing and Quality
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+hypothesis==6.92.1
+black==23.12.0
+isort==5.13.2
+flake8==6.1.0
+mypy==1.8.0
+
+# Security and Authentication
+cryptography==41.0.8
+pyjwt==2.8.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Utilities
+click==8.1.7
+tqdm==4.66.1
+python-dotenv==1.0.0
+pyyaml==6.0.1
+requests==2.31.0
+httpx==0.25.2
+websockets==12.0
+
+# Jupyter and Development
+jupyter==1.0.0
+ipywidgets==8.1.1
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.17.0
+
+# Performance and Optimization
+numba==0.58.1
+cython==3.0.6
+psutil==5.9.6 
